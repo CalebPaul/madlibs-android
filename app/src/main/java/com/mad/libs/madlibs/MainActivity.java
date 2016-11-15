@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("noun", noun);
                 intent.putExtra("verb", verb);
                 startActivity(intent);
+
             }
         });
     }

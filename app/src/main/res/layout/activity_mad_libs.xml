@@ -10,36 +10,41 @@
         android:layout_height="wrap_content"
         android:src="@drawable/madlibsbackground"
         android:scaleType="centerCrop"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The body of a noun"
+        android:textStyle="bold"
         android:textSize="25sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/nounLine"
-        />
+        android:textColor="@color/icons"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="With a soul that verbs"
+        android:textStyle="bold"
         android:textSize="25sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/verbLine"
-        android:layout_below="@+id/nounLine"/>
+        android:layout_below="@+id/nounLine"
+        android:textColor="@color/icons"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This is the essence of name"
+        android:textStyle="bold"
         android:textSize="25sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/nameLine"
-        android:layout_below="@+id/verbLine"/>
+        android:layout_below="@+id/verbLine"
+        android:textColor="@color/icons"/>
 
 </RelativeLayout>
