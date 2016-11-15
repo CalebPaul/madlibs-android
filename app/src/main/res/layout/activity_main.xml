@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:text="Hipster Poetry"
         android:id="@+id/textView"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="15dp"/>
 
@@ -29,7 +29,9 @@
         android:hint="Enter a Noun"
         android:padding="5dp"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionNext"
+        android:nextFocusRight="@+id/verb"/>
 
     <EditText
         android:id="@+id/verb"
@@ -39,7 +41,9 @@
         android:padding="5dp"
         android:layout_below="@+id/noun"
         android:layout_alignLeft="@+id/noun"
-        android:layout_alignStart="@+id/noun" />
+        android:layout_alignStart="@+id/noun"
+        android:focusable="true"
+        android:imeOptions="actionNext"/>
 
     <EditText
         android:id="@+id/name"
