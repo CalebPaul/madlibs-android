@@ -55,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Read your Story"
-        android:id="@+id/button"
+        android:id="@+id/submitWords"
         android:background="@color/accent"
         android:textColor="@color/icons"
         android:layout_alignParentBottom="true"
