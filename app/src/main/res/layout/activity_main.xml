@@ -17,27 +17,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hipster Poetry"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
 
     <EditText
-        android:id="@+id/noun1"
+        android:id="@+id/noun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter a Noun"
         android:padding="5dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="186dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
-        android:id="@+id/verb1"
+        android:id="@+id/verb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter a Verb"
         android:padding="5dp"
-        android:layout_below="@+id/noun1"
-        android:layout_alignLeft="@+id/noun1"
-        android:layout_alignStart="@+id/noun1" />
+        android:layout_below="@+id/noun"
+        android:layout_alignLeft="@+id/noun"
+        android:layout_alignStart="@+id/noun" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:padding="5dp"
+        android:layout_below="@+id/verb"
+        android:layout_alignLeft="@+id/verb"
+        android:layout_alignStart="@+id/verb" />
 
     <Button
         android:layout_width="match_parent"
